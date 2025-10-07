@@ -49,10 +49,11 @@ The entry point loads your PDF (default: `project_meetings.pdf`) and executes a 
 ## Prerequisites
 
 - **Python**: 3.13+ (as declared in `pyproject.toml`).
-- **OpenAI API key** (for `langchain-openai`). Create a `.env` in the project root:
-  ```env
-  OPENAI_API_KEY=sk-...
-  ```
+- **Generative engine API key and base URL** (for `langchain-openai`). Create a `.env` in the project root:
+```env
+- `GEP_API_KEY`: API key for accessing the LLMs on the Generative engine platform
+- `GEP_API_URL`: Base URL for the Generative Engine API endpoint
+```
   The app loads environment variables on startup.
 
 ---
