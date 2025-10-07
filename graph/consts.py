@@ -1,0 +1,6 @@
+LOAD_DOCS="load_docs"
+TRANSCRIPT_ANALYSIS="transcript_analysis"
+GENERAL_SUMMARY="general_summary"
+PROJECT_DESCRIPTION="project_description"
+GENERATE_EMAIL="generate_email"
+COMBINE_RESULTS="combine_results"
